@@ -12,5 +12,25 @@
     "templateGenerator.templatesPath": "${rootPath}/template",
     // "browse-lite.chromeExecutable": "/usr/bin/microsoft-edge-dev",
     "browse-lite.chromeExecutable": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
-    "browse-lite.startUrl": "http://localhost:3000"
+    "browse-lite.startUrl": "http://localhost:3000",
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#e8c110",
+        "activityBar.background": "#e8c110",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#0a957c",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "commandCenter.border": "#15202b99",
+        "sash.hoverBorder": "#e8c110",
+        "statusBar.background": "#b8990d",
+        "statusBar.foreground": "#15202b",
+        "statusBarItem.hoverBackground": "#88710a",
+        "statusBarItem.remoteBackground": "#b8990d",
+        "statusBarItem.remoteForeground": "#15202b",
+        "titleBar.activeBackground": "#b8990d",
+        "titleBar.activeForeground": "#15202b",
+        "titleBar.inactiveBackground": "#b8990d99",
+        "titleBar.inactiveForeground": "#15202b99"
+    },
+    "peacock.color": "#b8990d"
 }
