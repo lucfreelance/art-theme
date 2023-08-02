@@ -1,7 +1,11 @@
 ---
 layout: "@blog/Layouts/BlogPost.astro"
-title: "Contact me"
+title: "Contacto Colombiartesanías"
 hero: "https://picsum.photos/1280/780"
 ---
 
-Molestias laudantium dolorem impedit quam eaque suscipit voluptatem vel. Sit et sit autem quae dicta repellat magnam. Iste corporis nihil enim nobis. Ea omnis qui illo ratione. Et eius est mollitia. Id dicta cumque saepe enim reprehenderit quidem quis mollitia sit. Aspernatur quia doloribus ipsa. Soluta quis necessitatibus eaque dolorem sunt voluptates neque. Sit cumque dolor distinctio. Fugiat nostrum consequatur.
+¡Bienvenido a Colombiartesanías! Nos enorgullece compartir el arte y las artesanías de Colombia con el mundo. Si tienes alguna pregunta, comentario o simplemente deseas conocer más sobre nuestros productos, no dudes en ponerte en contacto con nosotros. Estamos aquí para ayudarte y brindarte una experiencia única!
+
+Contáctanos a través de nuestro formulario de contacto o utilizando la información proporcionada en nuestro sitio.
+
+¡Gracias por visitarnos!"

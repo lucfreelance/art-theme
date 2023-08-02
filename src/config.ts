@@ -6,8 +6,8 @@ export const isProd = MODE === "production";
 export const pageSize = 10;
 
 export const siteInfo = {
-    siteName: "Colombiartesanías",
-    siteDesc: "Arte y artesanías de Colombia para el mundo !",
+    siteName: "Colombiartesanias",
+    siteDesc: "Arte y artesanias de Colombia para el mundo !",
     lang: "en-us",
     icon: "https://picsum.photos/96",
     avatar: "https://picsum.photos/96",
@@ -35,7 +35,7 @@ export const nav = [
     },
     {
         title: "Categorías",
-        slug: "/categorias",
+        slug: "/categories",
         children: [],
     },
     {
@@ -54,66 +54,22 @@ export const settings = {
     showTOC: false,
     articleTheme: "github",
     postPicture: "first",
-    categorias: [
+    categories: [
         {
-            name: "Bolsos",
-            desc: "Bolsos de Ceci hechos artesanalmente",
+            name: "Demo",
+            desc: "Some Demo",
             image:
-                "/assets/didacticos.jpg",
+                "https://picsum.photos/290/80?random=" +
+                Math.random() * 1000,
+            order: 1,
         },
         {
-            name: "Zandalias",
-            desc: "Zandalias juveniles hechas para durar y siempre a la moda",
+            name: "Astro",
+            desc: "Astro Theme",
             image:
-                "/assets/didacticos.jpg",
-        },
-        {
-            name: "Accesorios para mujer",
-            desc: "Los accesorios que no pueden faltar para un buen look, desde anillos, aretes, collares, pulseras y más",
-            image:
-                "/assets/didacticos.jpg",
-        },
-        {
-            name: "Sopa de letras",
-            desc: "Un reto que te encantará! Llena un librillo semanal de sopas de letras temáticas. Tenemos las sopas de letras mejor hechas porque las hacemos en base a temas de importancia cultural e interés general",
-            image:
-                "/assets/didacticos.jpg",
-        },
-        {
-            name: "Libro para colorear",
-            desc: "Un reto que te encantará! Libro para colorear",
-            image:
-                "/assets/didacticos.jpg",
-        },
-        {
-            name: "Crucigramas",
-            desc: "Un reto que te encantará! Crucigramas",
-            image:
-                "/assets/didacticos.jpg",
-        },
-        {
-            name: "Encuentra la diferencia",
-            desc: "Un reto que te encantará! Encuentra la diferencia",
-            image:
-                "/assets/didacticos.jpg",
-        },
-        {
-            name: "Sudoku",
-            desc: "Un reto que te encantará! Sudoku",
-            image:
-                "/assets/didacticos.jpg",
-        },
-        {
-            name: "Patrones de colores",
-            desc: "Un reto que te encantará! Patrones de colores",
-            image:
-                "/assets/didacticos.jpg",
-        },
-        {
-            name: "Origami",
-            desc: "Un reto que te encantará! Origami",
-            image:
-                "/assets/didacticos.jpg",
+                "https://picsum.photos/290/80?random=" +
+                Math.random() * 1000,
+            order: 2,
         },
     ],
     categorySettings: {
