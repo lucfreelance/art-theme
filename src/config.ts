@@ -6,8 +6,8 @@ export const isProd = MODE === "production";
 export const pageSize = 10;
 
 export const siteInfo = {
-    siteName: "Art Theme",
-    siteDesc: "A Beautiful Blog To Record Life !",
+    siteName: "Colombiartesanías",
+    siteDesc: "Arte y artesanías de Colombia para el mundo !",
     lang: "en-us",
     icon: "https://picsum.photos/96",
     avatar: "https://picsum.photos/96",
@@ -24,28 +24,28 @@ export const siteInfo = {
 
 export const nav = [
     {
-        title: "Search",
-        slug: "/search",
+        title: "Acerca de",
+        slug: "/acerca",
         children: [],
     },
     {
-        title: "Category",
-        slug: "/categories",
+        title: "Buscar",
+        slug: "/buscar",
         children: [],
     },
     {
-        title: "About",
-        slug: "/about",
-        children: [],
-    },
-    {
-        title: "Contact",
-        slug: "/contact",
+        title: "Categoría",
+        slug: "/categorias",
         children: [],
     },
     {
         title: "Demo",
         slug: "/demo",
+        children: [],
+    },
+    {
+        title: "Entre nos",
+        slug: "/contacto",
         children: [],
     },
 ];
@@ -57,7 +57,7 @@ export const settings = {
     categories: [
         {
             name: "Demo",
-            desc: "Some Demo",
+            desc: "Demostración",
             image:
                 "https://picsum.photos/290/80?random=" +
                 Math.random() * 1000,
@@ -65,7 +65,7 @@ export const settings = {
         },
         {
             name: "Astro",
-            desc: "Astro Theme",
+            desc: "Astro Art",
             image:
                 "https://picsum.photos/290/80?random=" +
                 Math.random() * 1000,
