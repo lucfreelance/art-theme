@@ -34,13 +34,13 @@ export const nav = [
         children: [],
     },
     {
-        title: "Categoría",
+        title: "Categorías",
         slug: "/categorias",
         children: [],
     },
     {
-        title: "Demo",
-        slug: "/demo",
+        title: "Didácticos",
+        slug: "/didacticos",
         children: [],
     },
     {
@@ -54,22 +54,66 @@ export const settings = {
     showTOC: false,
     articleTheme: "github",
     postPicture: "first",
-    categories: [
+    categorias: [
         {
-            name: "Demo",
-            desc: "Demostración",
+            name: "Bolsos",
+            desc: "Bolsos de Ceci hechos artesanalmente",
             image:
-                "https://picsum.photos/290/80?random=" +
-                Math.random() * 1000,
-            order: 1,
+                "/assets/didacticos.jpg",
         },
         {
-            name: "Astro",
-            desc: "Astro Art",
+            name: "Zandalias",
+            desc: "Zandalias juveniles hechas para durar y siempre a la moda",
             image:
-                "https://picsum.photos/290/80?random=" +
-                Math.random() * 1000,
-            order: 2,
+                "/assets/didacticos.jpg",
+        },
+        {
+            name: "Accesorios para mujer",
+            desc: "Los accesorios que no pueden faltar para un buen look, desde anillos, aretes, collares, pulseras y más",
+            image:
+                "/assets/didacticos.jpg",
+        },
+        {
+            name: "Sopa de letras",
+            desc: "Un reto que te encantará! Llena un librillo semanal de sopas de letras temáticas. Tenemos las sopas de letras mejor hechas porque las hacemos en base a temas de importancia cultural e interés general",
+            image:
+                "/assets/didacticos.jpg",
+        },
+        {
+            name: "Libro para colorear",
+            desc: "Un reto que te encantará! Libro para colorear",
+            image:
+                "/assets/didacticos.jpg",
+        },
+        {
+            name: "Crucigramas",
+            desc: "Un reto que te encantará! Crucigramas",
+            image:
+                "/assets/didacticos.jpg",
+        },
+        {
+            name: "Encuentra la diferencia",
+            desc: "Un reto que te encantará! Encuentra la diferencia",
+            image:
+                "/assets/didacticos.jpg",
+        },
+        {
+            name: "Sudoku",
+            desc: "Un reto que te encantará! Sudoku",
+            image:
+                "/assets/didacticos.jpg",
+        },
+        {
+            name: "Patrones de colores",
+            desc: "Un reto que te encantará! Patrones de colores",
+            image:
+                "/assets/didacticos.jpg",
+        },
+        {
+            name: "Origami",
+            desc: "Un reto que te encantará! Origami",
+            image:
+                "/assets/didacticos.jpg",
         },
     ],
     categorySettings: {
