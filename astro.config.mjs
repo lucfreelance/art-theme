@@ -10,13 +10,13 @@ import path from "path";
 import remarkSmartypants from "remark-smartypants";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import remarkMath from 'remark-math'
-import rehypeMathjax from 'rehype-mathjax'
+import remarkMath from "remark-math";
+import rehypeMathjax from "rehype-mathjax";
 
 import sitemap from "@astrojs/sitemap";
 import remarkParseVar from "./plugins/remark-parseVar.mjs";
 import remarkCode from "./plugins/remark-code.mjs";
-import remarkFlow from './plugins/remark-flow.mjs';
+import remarkFlow from "./plugins/remark-flow.mjs";
 
 export default defineConfig({
     markdown: {
@@ -45,7 +45,7 @@ export default defineConfig({
             wrap: false,
         },
     },
-    site: "https://art-theme.netlify.app/",
+    site: "https://colombiartesanias.vercel.app/",
     integrations: [
         tailwind({
             config: { path: "./tailwind.config.js" },
@@ -53,7 +53,7 @@ export default defineConfig({
         }),
         // partytown(),
         compress({
-            html: false
+            html: false,
         }),
         robotsTxt(),
         astroImageTools,
@@ -89,7 +89,7 @@ export default defineConfig({
             external: ["svgo"],
         },
         optimizeDeps: {
-            "exclude": ["mermaid"]
+            exclude: ["mermaid"],
         },
         resolve: {
             alias: {
