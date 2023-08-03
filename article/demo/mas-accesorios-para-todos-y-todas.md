@@ -1,9 +1,10 @@
 ---
-title: Más accesorios para todos y todas!
-desc: Desc
+title: Accesorios para toda ocasión
+desc: para los verdaderos amantes de los accesorios de moda, Colombiartesanías trae una colección maravillosa, inspirada en la vida y la libertad de la mujer.
+pubDate: 2023/7/17 00:07:30
 theme: normal
-pubDate: 2023/7/14 21:04:52
 author: Colombiartesanias
+top: true
 hero: "/placeholder-social.jpg"
 categories:
     - Accesorios

@@ -2,9 +2,9 @@
 title: Sopas de letras que nos cambian la vida
 desc: Apuesta a que no llenarás tan fácil éstas sopas
 theme: normal
-pubDate: 2023/7/16 21:04:52
+pubDate: 2023/7/15 21:04:52
 author: Colombiartesanias
-hero: "/placeholder-front.jpg"
+hero: "/placeholder-aside.jpg"
 categories:
     - Sopas
 ---
