@@ -1,5 +1,5 @@
 ---
-title: Las sopas de letras que nos cambian la vida
+title: Sopas de letras que nos cambian la vida
 desc: Apuesta a que no llenarás tan fácil éstas sopas
 theme: normal
 pubDate: 2023/7/15 21:04:52

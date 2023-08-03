@@ -10,14 +10,9 @@ import { siteInfo } from "@blog/config";
         id="runtime"
         class="text-xs text-base-content/70 text-center cursor-pointer mb-2"
     >
-        Este sitio web fue lanzado el {siteInfo.startTime}
+    &copy;  {siteInfo.siteName} fue lanzado: {siteInfo.startTime}
     </p>
     <p class="text-xs text-base-content/70 text-center">
-        &copy; {new Date().getFullYear()} –
-        <a class="link" href={siteInfo.github} target="_blank">
-            {siteInfo.siteName}
-        </a>
-        · Art frame Astro framework
-        <a class="link" href="https://astro.build/" target="_blank"> Astro</a>
+         {new Date().getFullYear()} · <a class="link" href="https://www.github.com/lucfreelance" target="_blank">@</a>lucfreelance · <a class="link" href="https://github.com/npmrun/art-theme" target="_blank"> Art Frame</a> · <a class="link" href="https://astro.build/" target="_blank"> Astro Framework</a>
     </p>
 </footer>

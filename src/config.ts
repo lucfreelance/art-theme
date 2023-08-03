@@ -7,7 +7,7 @@ export const pageSize = 10;
 
 export const siteInfo = {
     siteName: "Colombiartesanias",
-    siteDesc: "Arte y artesanias de Colombia para el mundo !",
+    siteDesc: "Arte y artesanias de Colombia para el mundo",
     lang: "en-us",
     icon: "https://picsum.photos/96",
     avatar: "https://picsum.photos/96",
