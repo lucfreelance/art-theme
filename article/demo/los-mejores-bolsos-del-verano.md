@@ -4,7 +4,6 @@ desc: Irrrumpimos con fuerza y ganas de impactar con los bolsos más lindos de l
 theme: normal
 pubDate: 2023/7/12 21:04:52
 author: Colombiartesanias
-author: Colombiartesanias
 hero: "/placeholder-about.jpg"
 categories:
     - Bolsos
